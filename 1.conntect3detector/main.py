@@ -14,7 +14,7 @@ model.add(layers.Dense(1, activation='sigmoid'))
 model.compile(optimizer='adam',
               loss='binary_crossentropy',
               metrics=['accuracy'])
-smodel.summary()
+model.summary()
 datasetFile = open("3connect.txt", "r")
 
 # read dataset
